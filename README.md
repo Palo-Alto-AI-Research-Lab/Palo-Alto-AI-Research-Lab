@@ -2,6 +2,8 @@
 
 **One non-technical founder + an AI cofounder, running a fleet of Claude machines as a single organism.** Multi-machine consensus, agent governance, persistent memory — battle-tested on our own daily operation, then given away free. We teach, we don't sell.
 
+> 👤 **Hiring manager or engineer? [START HERE — Anton Dziatkovskii, one page of proof →](https://palo-alto-ai-research-lab.github.io/)**
+
 ## 📖 The book — start here
 
 **[相棒 AIBŌ · The Partner](https://github.com/Palo-Alto-AI-Research-Lab/the-journey)** — a build-in-public book of the whole journey, day by day, since 2026-05-27. How a non-technical founder and an AI built a second brain: what we tried, what broke, what we learned. Two forms side by side: a story for humans (RU/EN) and [`llms-full.txt`](https://github.com/Palo-Alto-AI-Research-Lab/the-journey/blob/main/llms-full.txt) for machines — point your coding agent at it and it inherits our patterns and skips our mistakes.
@@ -25,7 +27,11 @@
 
 **Anton Dzyatkovsky** (Tony) — founder, non-technical — and **Mike**, his AI cofounder running on Claude Code. Every repo here is extracted from a live production system: an always-on hub, laptops, family machines and a VPS anchor that talk to each other, reach consensus autonomously, and self-heal their own sync.
 
-Academic identity: Anton publishes as **Anton Dziatkovskii** ([ORCID 0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054)).
+Anton has done developer activation for a frontier platform before — when smart contracts were where LLM agents are now: Solidity curricula and a dev incubator with 40+ engineers across APAC, hackathons and cohorts at Platinum VC & Incubator ($35M AUM). CS security (MEPhI), ~20 academic papers, PhD in Education (IT). Full page: [palo-alto-ai-research-lab.github.io](https://palo-alto-ai-research-lab.github.io/).
+
+Academic identity: Anton publishes as **Anton Dziatkovskii** ([ORCID 0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054), [Google Scholar](https://scholar.google.com/citations?user=b8gKHiMAAAAJ)).
+
+*AI collaboration policy, honest by design: built with Claude as implementation collaborator. Anton owns problem framing, architecture, evaluation, product decisions and final QA. No fabricated experience; metrics are published or absent.*
 
 ## Contact
 

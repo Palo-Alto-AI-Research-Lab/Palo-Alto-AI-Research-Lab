@@ -3,6 +3,8 @@
 **One non-technical founder + an AI cofounder, running a fleet of Claude machines as a single organism.** Multi-machine consensus, agent governance, persistent memory — battle-tested on our own daily operation, then given away free. We teach, we don't sell.
 
 > 👤 **Hiring manager or engineer? [START HERE — Anton Dziatkovskii, one page of proof →](https://palo-alto-ai-research-lab.github.io/)**
+>
+> 📄 Resume: **[PDF](https://palo-alto-ai-research-lab.github.io/resume.pdf)** · [JSON Resume](https://palo-alto-ai-research-lab.github.io/resume.json) — 🎓 Research: **[academic profile](https://palo-alto-ai-research-lab.github.io/scholar/)** · [full publication list](https://palo-alto-ai-research-lab.github.io/scholar/publications/)
 
 ## 📖 The book — start here
 
@@ -16,6 +18,7 @@
 | [claude-bible](https://github.com/Palo-Alto-AI-Research-Lab/claude-bible) | The governance codex: one behavioral rulebook for every actor — the founder, human assistants, and every Claude in the fleet. The Bible is the law; consensus is the diplomacy. |
 | [sqlite-graph-memory](https://github.com/Palo-Alto-AI-Research-Lab/sqlite-graph-memory) | Agent memory that survives a context reset: facts (SQL) + meaning (embeddings) + relations (graph edges) in one zero-infra SQLite file. |
 | [agent-leash](https://github.com/Palo-Alto-AI-Research-Lab/agent-leash) | A zero-trust leash for autonomous agents: deterministic pre/post-action gates around the model, not inside it. |
+| [verbatim-citation-gate](https://github.com/Palo-Alto-AI-Research-Lab/verbatim-citation-gate) | Catch fabricated RAG citations before they reach the user: a zero-token verbatim gate plus a burden-of-proof judge. Framework-agnostic, MIT. |
 | [charm-os](https://github.com/Palo-Alto-AI-Research-Lab/charm-os) | CHARM — an MCP read-broker: one server, many agents, scoped bearer access to a shared knowledge base. |
 | [the-journey](https://github.com/Palo-Alto-AI-Research-Lab/the-journey) | The book (see above). |
 
@@ -27,7 +30,7 @@
 
 **Anton Dzyatkovsky** (Tony) — founder, non-technical — and **Mike**, his AI cofounder running on Claude Code. Every repo here is extracted from a live production system: an always-on hub, laptops, family machines and a VPS anchor that talk to each other, reach consensus autonomously, and self-heal their own sync.
 
-Anton has done developer activation for a frontier platform before — when smart contracts were where LLM agents are now: Solidity curricula and a dev incubator with 40+ engineers across APAC, hackathons and cohorts at Platinum VC & Incubator ($35M AUM). CS security (MEPhI), ~20 academic papers, PhD in Education (IT). Full page: [palo-alto-ai-research-lab.github.io](https://palo-alto-ai-research-lab.github.io/).
+Anton has done developer activation for a frontier platform before — when smart contracts were where LLM agents are now: Solidity curricula and a dev incubator with 40+ engineers across APAC, hackathons and cohorts at Platinum VC & Incubator ($35M AUM). CS security (MEPhI), ~20 academic papers, PhD in Education (IT). Full page: [palo-alto-ai-research-lab.github.io](https://palo-alto-ai-research-lab.github.io/) · [resume (PDF)](https://palo-alto-ai-research-lab.github.io/resume.pdf) · [academic profile](https://palo-alto-ai-research-lab.github.io/scholar/).
 
 Academic identity: Anton publishes as **Anton Dziatkovskii** ([ORCID 0000-0001-7408-3054](https://orcid.org/0000-0001-7408-3054), [Google Scholar](https://scholar.google.com/citations?user=b8gKHiMAAAAJ), [Academia.edu](https://tylip.academia.edu/AntonDziatkovskii)).
 

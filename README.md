@@ -36,10 +36,13 @@ Representative work in flight:
 | [anthropics/claude-cookbooks#788](https://github.com/anthropics/claude-cookbooks/pull/788) | Pipeline vs barrier sub-agent composition — when a barrier actually earns its wall-clock cost. |
 | [anthropics/claude-agent-sdk-demos#70](https://github.com/anthropics/claude-agent-sdk-demos/pull/70) | `verified-ops-agent` — propose → adversarial verify → execute, as a runnable demo. |
 | [openai/openai-cookbook#2880](https://github.com/openai/openai-cookbook/pull/2880) | Zero-token check for fabricated citations in RAG. |
-| [microsoft/semantic-kernel#14199](https://github.com/microsoft/semantic-kernel/pull/14199) | `FunctionAuthorizationFilter` — authority routing as a first-class filter. |
+| [huggingface/cookbook#366](https://github.com/huggingface/cookbook/pull/366) | A self-verifying search agent — the agent checks its own retrieval before answering. |
+| [anthropics/skills#1460](https://github.com/anthropics/skills/pull/1460) | `reasoning-quality-gate` skill. |
 | [google/adk-python-community#172](https://github.com/google/adk-python-community/pull/172) | `AuthorityRoutingPlugin` — ADVISE / EXECUTE / DEFER / STOP for agent actions. |
 
 The pattern behind most of them is the same one we run in production: **a deterministic gate around the model, not a better prompt inside it.**
+
+The most useful response so far was a rejection: [deepset-ai/haystack#12142](https://github.com/deepset-ai/haystack/pull/12142) was closed by a maintainer with an actual review — not enough added value to justify the new component. A reviewed no beats a silent queue, and it is on the list above like everything else.
 
 ## Who's behind this
 

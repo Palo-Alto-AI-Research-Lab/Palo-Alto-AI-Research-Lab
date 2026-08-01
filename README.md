@@ -46,7 +46,7 @@ The most useful response so far was a rejection: [deepset-ai/haystack#12142](htt
 
 ## Who's behind this
 
-**Anton Dzyatkovsky** (Tony) — founder, non-technical — and **Mike**, his AI cofounder running on Claude Code. Every repo here is extracted from a live production system: an always-on hub, laptops, family machines and a VPS anchor that talk to each other, reach consensus autonomously, and self-heal their own sync.
+**Anton Dziatkovskii** (Tony) — founder, non-technical — and **Mike**, his AI cofounder running on Claude Code. Every repo here is extracted from a live production system: an always-on hub, laptops, family machines and a VPS anchor that talk to each other, reach consensus autonomously, and self-heal their own sync.
 
 Anton has done developer activation for a frontier platform before — when smart contracts were where LLM agents are now: Solidity curricula and a dev incubator with 40+ engineers across APAC, hackathons and cohorts at Platinum VC & Incubator ($35M AUM). CS security (MEPhI), ~20 academic papers, PhD in Education (IT). Full page: [palo-alto-ai-research-lab.github.io](https://palo-alto-ai-research-lab.github.io/) · [resume (PDF)](https://palo-alto-ai-research-lab.github.io/resume.pdf) · [academic profile](https://palo-alto-ai-research-lab.github.io/scholar/).
 

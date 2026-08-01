@@ -109,11 +109,7 @@ The most useful response so far was a rejection: [deepset-ai/haystack#12142](htt
   <img alt="GitHub activity, community and repository stats" src="/metrics.svg">
 </p>
 
-<p align="center">
-  <img alt="GitHub achievements" src="/metrics.achievements.svg">
-</p>
-
-<sub>Both cards are rendered nightly from the GitHub API by <a href="https://github.com/Palo-Alto-AI-Research-Lab/Palo-Alto-AI-Research-Lab/blob/main/.github/workflows/metrics.yml">a workflow in this repo</a> and committed as SVG — not hotlinked from a public widget host, because on 2026-08-01 the usual two (github-readme-stats, github-profile-trophy) were both answering 503 / 402. The full contribution record is on <a href="https://palo-alto-ai-research-lab.github.io/contributions/">the contributions page</a>, generated straight from the API.</sub>
+<sub>Rendered nightly from the GitHub API by <a href="https://github.com/Palo-Alto-AI-Research-Lab/Palo-Alto-AI-Research-Lab/blob/main/.github/workflows/metrics.yml">a workflow in this repo</a> and committed as an SVG — not hotlinked from a public widget host, because on 2026-08-01 the usual two (github-readme-stats, github-profile-trophy) were answering 503 and 402. Achievement badges are GitHub's own, on the profile sidebar. The full contribution record is on <a href="https://palo-alto-ai-research-lab.github.io/contributions/">the contributions page</a>, generated straight from the API.</sub>
 
 ## 👤 Who's behind this
 

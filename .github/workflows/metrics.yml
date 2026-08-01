@@ -27,19 +27,17 @@ jobs:
           user: Palo-Alto-AI-Research-Lab
           filename: metrics.svg
           template: classic
-          base: header, activity, community, repositories, metadata
+          # "repositories" is deliberately NOT in this list: with a user-scoped
+          # token it renders the stats of this ONE repo and prints "1 Repository",
+          # which understates the account. Understating is as dishonest as inflating.
+          base: header, activity, community, metadata
           config_timezone: Europe/Lisbon
           committer_message: "metrics: refresh stats card"
 
-      - name: Achievements card
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          user: Palo-Alto-AI-Research-Lab
-          filename: metrics.achievements.svg
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
-          config_timezone: Europe/Lisbon
-          committer_message: "metrics: refresh achievements card"
+# No achievements/trophy card here on purpose. Measured 2026-08-01:
+# plugin_achievements in lowlighter/metrics@3.34.0 queries `user.projects`
+# (Projects classic), which GitHub has sunset — GraphQL answers `data: {user: null}`
+# and the plugin renders a card that literally reads "Unexpected error".
+# GitHub's own Achievements badges already show on the profile page (Settings →
+# Profile → Show Achievements, plus private contributions included), so the real
+# thing is on display and nothing here needs to fake it.

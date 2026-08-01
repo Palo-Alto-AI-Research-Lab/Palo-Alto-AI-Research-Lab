@@ -1,30 +1,84 @@
-# Palo Alto AI Research Lab
+<!--
+  This is the profile README of github.com/Palo-Alto-AI-Research-Lab.
+  Heads-up for whoever renames the account: every badge, widget and raw URL below
+  hard-codes the login "Palo-Alto-AI-Research-Lab". A rename silently breaks them
+  (shields.io and the stats widgets just render an error card). Grep for the login
+  and rewrite it in the same commit as the rename.
+  The "Latest writing" block is generated — see .github/workflows/blog-post-workflow.yml.
+-->
 
-**One non-technical founder + an AI cofounder, running a fleet of Claude machines as a single organism.** Multi-machine consensus, agent governance, persistent memory — battle-tested on our own daily operation, then given away free. We teach, we don't sell.
+<h1 align="center">Anton Dziatkovskii</h1>
 
-> 👤 **Hiring manager or engineer? [START HERE — Anton Dziatkovskii, one page of proof →](https://palo-alto-ai-research-lab.github.io/)**
+<p align="center">
+  <b>AI Research Builder</b> — building a multi-agent lab, publishing the artifacts from running it daily.<br>
+  <sub>One non-technical founder + an AI cofounder + a fleet of Claude machines that reach consensus without me.</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Palo-Alto-AI-Research-Lab?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/Palo-Alto-AI-Research-Lab?style=flat-square&logo=github&label=followers&color=1f6feb"></a>
+  <a href="https://orcid.org/0000-0001-7408-3054"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-0000--0001--7408--3054-a6ce39?style=flat-square&logo=orcid&logoColor=white"></a>
+  <a href="https://x.com/Tony_Stef_"><img alt="X" src="https://img.shields.io/badge/X-@Tony__Stef__-000000?style=flat-square&logo=x&logoColor=white"></a>
+  <a href="https://t.me/ClawEng"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@ClawEng-229ED9?style=flat-square&logo=telegram&logoColor=white"></a>
+  <img alt="License" src="https://img.shields.io/badge/everything%20here-MIT-3da639?style=flat-square&logo=opensourceinitiative&logoColor=white">
+</p>
+
+> 👤 **Hiring manager or engineer? [START HERE — one page of proof →](https://palo-alto-ai-research-lab.github.io/)**
 >
 > 📄 Resume: **[PDF](https://palo-alto-ai-research-lab.github.io/resume.pdf)** · [JSON Resume](https://palo-alto-ai-research-lab.github.io/resume.json) — 🎓 Research: **[academic profile](https://palo-alto-ai-research-lab.github.io/scholar/)** · [full publication list](https://palo-alto-ai-research-lab.github.io/scholar/publications/)
 
-## 📖 The book — start here
+---
+
+## 🔨 What I'm building right now
+
+- **A second brain that survives a context reset** — facts in SQL, meaning in embeddings, relations in a graph, one SQLite file, no infrastructure. → [`sqlite-graph-memory`](https://github.com/Palo-Alto-AI-Research-Lab/sqlite-graph-memory)
+- **A fleet that negotiates instead of drifting** — hub, laptops, family machines and a VPS anchor run propose → counter → accept → commit, and wake the human only for money or the irreversible. → [`claude-consensus`](https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus)
+- **Deterministic gates around the model, not better prompts inside it** — citation checks, authority routing, an 8-domain leash for delegated authority. → [`verbatim-citation-gate`](https://github.com/Palo-Alto-AI-Research-Lab/verbatim-citation-gate) · [`agent-leash`](https://github.com/Palo-Alto-AI-Research-Lab/agent-leash)
+- **A reliability bench for agent runtimes** — replay, idempotency and consensus-integrity scenarios distilled from real fleet incidents, not from a whiteboard. → [`agent-runtime-integrity-bench`](https://github.com/Palo-Alto-AI-Research-Lab/agent-runtime-integrity-bench)
+- **The whole thing written down as it happens** — a build-in-public book and an English diary, updated the day something breaks. → [`the-journey`](https://github.com/Palo-Alto-AI-Research-Lab/the-journey) · [`clawrush`](https://github.com/Palo-Alto-AI-Research-Lab/clawrush)
+
+## 📌 Four to start with
+
+| | What it is | Why you'd care |
+|---|---|---|
+| **[claude-bible](https://github.com/Palo-Alto-AI-Research-Lab/claude-bible)** | One behavioral rulebook every actor obeys — the founder, human assistants, and every Claude in the fleet | Your agents behave the same across repos, sessions and people, because the law lives outside the prompt |
+| **[claude-consensus](https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus)** | Cross-machine consensus protocol: dual-rail bus, ACK discipline, heartbeat failover, self-healing sync | Run agents on several machines without state drift, and without a human courier between them |
+| **[sqlite-graph-memory](https://github.com/Palo-Alto-AI-Research-Lab/sqlite-graph-memory)** | Graph RAG on plain SQLite: vector retrieval + curated wiki-links, zero infra | Agent memory that outlives the context window and that you can open with `sqlite3` |
+| **[verbatim-citation-gate](https://github.com/Palo-Alto-AI-Research-Lab/verbatim-citation-gate)** | Zero-token verbatim check + burden-of-proof judge for RAG answers | Fabricated citations get caught before the user sees them; framework-agnostic, MIT |
+
+Also here: [`agent-leash`](https://github.com/Palo-Alto-AI-Research-Lab/agent-leash) (LEASH-8 control model) · [`charm-os`](https://github.com/Palo-Alto-AI-Research-Lab/charm-os) (MCP read-broker) · [`second-brain-starter-kit`](https://github.com/Palo-Alto-AI-Research-Lab/second-brain-starter-kit) (101 skills + a working CRM engine).
+
+## 🧰 Stack
+
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white">
+  <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white">
+  <img alt="MCP" src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
+  <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white">
+  <img alt="Telegram API" src="https://img.shields.io/badge/Telegram%20API-229ED9?style=flat-square&logo=telegram&logoColor=white">
+  <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white">
+  <img alt="macOS" src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white">
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
+  <img alt="Windows" src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white">
+</p>
+
+Python and SQLite for everything that has to survive a crash; Claude Code as the runtime; MCP for tools; GitHub Actions and cron for the routines. The house rule is **AK-47**: the simplest thing that works and that a non-technical founder can repair with a hammer and a screwdriver.
+
+## ✍️ Latest writing
+
+Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/Palo-Alto-AI-Research-Lab/clawrush) ([RSS](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml)).
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+## 📖 The book
 
 **[相棒 AIBŌ · The Partner](https://github.com/Palo-Alto-AI-Research-Lab/the-journey)** — a build-in-public book of the whole journey, day by day, since 2026-05-27. How a non-technical founder and an AI built a second brain: what we tried, what broke, what we learned. Two forms side by side: a story for humans (RU/EN) and [`llms-full.txt`](https://github.com/Palo-Alto-AI-Research-Lab/the-journey/blob/main/llms-full.txt) for machines — point your coding agent at it and it inherits our patterns and skips our mistakes.
 
-## What we build
+## 🔁 Contributing upstream
 
-| Repo | What it is |
-|---|---|
-| [claude-consensus](https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus) | Run AI agents across machines without state drift: propose/counter/accept/commit consensus, dual-rail message bus, ACK discipline, heartbeat failover, self-healing sync. The machines negotiate; the human is woken up only for money or the irreversible. |
-| [claude-bible](https://github.com/Palo-Alto-AI-Research-Lab/claude-bible) | The governance codex: one behavioral rulebook for every actor — the founder, human assistants, and every Claude in the fleet. The Bible is the law; consensus is the diplomacy. |
-| [sqlite-graph-memory](https://github.com/Palo-Alto-AI-Research-Lab/sqlite-graph-memory) | Agent memory that survives a context reset: facts (SQL) + meaning (embeddings) + relations (graph edges) in one zero-infra SQLite file. |
-| [agent-leash](https://github.com/Palo-Alto-AI-Research-Lab/agent-leash) | A zero-trust leash for autonomous agents: deterministic pre/post-action gates around the model, not inside it. |
-| [verbatim-citation-gate](https://github.com/Palo-Alto-AI-Research-Lab/verbatim-citation-gate) | Catch fabricated RAG citations before they reach the user: a zero-token verbatim gate plus a burden-of-proof judge. Framework-agnostic, MIT. |
-| [charm-os](https://github.com/Palo-Alto-AI-Research-Lab/charm-os) | CHARM — an MCP read-broker: one server, many agents, scoped bearer access to a shared knowledge base. |
-| [the-journey](https://github.com/Palo-Alto-AI-Research-Lab/the-journey) | The book (see above). |
-
-## Contributing upstream
-
-**32 pull requests into 24 repositories across 22 organisations** — Anthropic, OpenAI, Google, Microsoft, Mistral, Cohere, Hugging Face, xAI, Qwen, deepset, and the agent-ecosystem lists. 29 open, 3 closed, 0 merged so far *(verified 2026-07-29)*.
+**37 pull requests into 26 repositories across 24 organisations** — Anthropic, OpenAI, Google, Microsoft, Mistral, Cohere, Hugging Face, xAI, Qwen, deepset, and the agent-ecosystem lists. 33 open, 4 closed, **0 merged so far** *(verified 2026-08-01)*.
 
 📋 **[The full list, with live status →](https://palo-alto-ai-research-lab.github.io/contributions/)** — generated straight from the GitHub API, closed ones included. Nothing is left off it to make the record look better.
 
@@ -32,19 +86,32 @@ Representative work in flight:
 
 | PR | What it proposes |
 |---|---|
-| [anthropics/claude-cookbooks#778](https://github.com/anthropics/claude-cookbooks/pull/778) | *Coordinating agents that don't share memory* — message-bus consensus + liveness, distilled from claude-consensus. |
+| [anthropics/claude-cookbooks#787](https://github.com/anthropics/claude-cookbooks/pull/787) | Authority routing — ADVISE / EXECUTE / DEFER / STOP as a gate on agent actions. |
+| [anthropics/claude-cookbooks#778](https://github.com/anthropics/claude-cookbooks/pull/778) | *Coordinating agents that don't share memory* — message-bus consensus + liveness. |
 | [anthropics/claude-cookbooks#788](https://github.com/anthropics/claude-cookbooks/pull/788) | Pipeline vs barrier sub-agent composition — when a barrier actually earns its wall-clock cost. |
 | [anthropics/claude-agent-sdk-demos#70](https://github.com/anthropics/claude-agent-sdk-demos/pull/70) | `verified-ops-agent` — propose → adversarial verify → execute, as a runnable demo. |
 | [openai/openai-cookbook#2880](https://github.com/openai/openai-cookbook/pull/2880) | Zero-token check for fabricated citations in RAG. |
 | [huggingface/cookbook#366](https://github.com/huggingface/cookbook/pull/366) | A self-verifying search agent — the agent checks its own retrieval before answering. |
 | [anthropics/skills#1460](https://github.com/anthropics/skills/pull/1460) | `reasoning-quality-gate` skill. |
-| [google/adk-python-community#172](https://github.com/google/adk-python-community/pull/172) | `AuthorityRoutingPlugin` — ADVISE / EXECUTE / DEFER / STOP for agent actions. |
+| [google/adk-python-community#172](https://github.com/google/adk-python-community/pull/172) | `AuthorityRoutingPlugin` for ADK. |
 
-The pattern behind most of them is the same one we run in production: **a deterministic gate around the model, not a better prompt inside it.**
+The pattern behind most of them is the same one that runs in production here: **a deterministic gate around the model, not a better prompt inside it.**
 
 The most useful response so far was a rejection: [deepset-ai/haystack#12142](https://github.com/deepset-ai/haystack/pull/12142) was closed by a maintainer with an actual review — not enough added value to justify the new component. A reviewed no beats a silent queue, and it is on the list above like everything else.
 
-## Who's behind this
+## 📊 The numbers, unedited
+
+<p align="center">
+  <img alt="GitHub activity, community and repository stats" src="/metrics.svg">
+</p>
+
+<p align="center">
+  <img alt="GitHub achievements" src="/metrics.achievements.svg">
+</p>
+
+<sub>Both cards are rendered nightly from the GitHub API by <a href="https://github.com/Palo-Alto-AI-Research-Lab/Palo-Alto-AI-Research-Lab/blob/main/.github/workflows/metrics.yml">a workflow in this repo</a> and committed as SVG — not hotlinked from a public widget host, because on 2026-08-01 the usual two (github-readme-stats, github-profile-trophy) were both answering 503 / 402. The full contribution record is on <a href="https://palo-alto-ai-research-lab.github.io/contributions/">the contributions page</a>, generated straight from the API.</sub>
+
+## 👤 Who's behind this
 
 **Anton Dziatkovskii** (Tony) — founder, non-technical — and **Mike**, his AI cofounder running on Claude Code. Every repo here is extracted from a live production system: an always-on hub, laptops, family machines and a VPS anchor that talk to each other, reach consensus autonomously, and self-heal their own sync.
 
@@ -54,7 +121,7 @@ Academic identity: Anton publishes as **Anton Dziatkovskii** ([ORCID 0000-0001-7
 
 *AI collaboration policy, honest by design: built with Claude as implementation collaborator. Anton owns problem framing, architecture, evaluation, product decisions and final QA. No fabricated experience; metrics are published or absent.*
 
-## Contact
+## 📬 Contact
 
 Questions, war stories, or you want to test-drive any of this with your own fleet:
 

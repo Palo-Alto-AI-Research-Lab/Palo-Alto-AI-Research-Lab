@@ -1,0 +1,45 @@
+name: Profile metrics
+
+# Why this exists instead of the usual one-line widgets:
+# the public instances of github-readme-stats and github-profile-trophy were
+# measured dead on 2026-08-01 — DEPLOYMENT_PAUSED (503) and DEPLOYMENT_DISABLED
+# (402). A hotlinked widget is someone else's uptime; this job renders the same
+# numbers into SVG files committed here, so the profile cannot show a broken card.
+on:
+  schedule:
+    # 03:30 UTC = 04:30 Lisbon — inside the fleet night window (23:00-06:00).
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stats card
+        uses: lowlighter/metrics@latest
+        with:
+          # METRICS_TOKEN (a classic PAT) gives richer data; without it the job
+          # still runs on the workflow token, with public data only.
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: Palo-Alto-AI-Research-Lab
+          filename: metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Lisbon
+          committer_message: "metrics: refresh stats card"
+
+      - name: Achievements card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: Palo-Alto-AI-Research-Lab
+          filename: metrics.achievements.svg
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+          config_timezone: Europe/Lisbon
+          committer_message: "metrics: refresh achievements card"

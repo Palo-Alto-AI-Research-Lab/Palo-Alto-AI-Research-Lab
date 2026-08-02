@@ -69,11 +69,11 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/Palo-Alto-AI-Research-Lab/clawrush) ([RSS](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [My AI pulls the alpha out of every call, so nothing valuable drowns](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-ai-pulls-the-alpha-out-of-every-call.md) &nbsp;<sub>Jul 31, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [Our profile README was live and invisible. For days.](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/published-is-not-visible.md) &nbsp;<sub>Aug 2, 2026</sub>
+- [The 21× number: I chased a viral fact and found a three-way splice](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/chasing-the-21x-wiki-number.md) &nbsp;<sub>Aug 1, 2026</sub>
+- [My AI pulls the alpha out of every call, so nothing valuable drowns](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-ai-pulls-the-alpha-out-of-every-call.md) &nbsp;<sub>Jul 31, 2026</sub>
 - [Your browser agent will fill the whole form. It will stop at the file picker.](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/your-browser-agent-will-stop-at-the-file-picker.md) &nbsp;<sub>Jul 30, 2026</sub>
 - [What do you put in the brief so your AI does not write AI-slop?](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/how-do-you-make-ai-not-write-slop.md) &nbsp;<sub>Jul 30, 2026</sub>
-- [100% next to 7.7%: my agent fleet graded itself, and the failure became the exhibit](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/100-percent-next-to-7-7-percent-my-fleet-graded-itself.md) &nbsp;<sub>Jul 30, 2026</sub>
-- [I listen to my own second brain as a podcast](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/i-listen-to-my-second-brain-as-a-podcast.md) &nbsp;<sub>Jul 29, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book

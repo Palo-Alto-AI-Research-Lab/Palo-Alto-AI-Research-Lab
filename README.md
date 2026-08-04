@@ -44,6 +44,7 @@
 | **[claude-consensus](https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus)** | Cross-machine consensus protocol: dual-rail bus, ACK discipline, heartbeat failover, self-healing sync | Run agents on several machines without state drift, and without a human courier between them |
 | **[sqlite-graph-memory](https://github.com/Palo-Alto-AI-Research-Lab/sqlite-graph-memory)** | Graph RAG on plain SQLite: vector retrieval + curated wiki-links, zero infra | Agent memory that outlives the context window and that you can open with `sqlite3` |
 | **[verbatim-citation-gate](https://github.com/Palo-Alto-AI-Research-Lab/verbatim-citation-gate)** | Zero-token verbatim check + burden-of-proof judge for RAG answers | Fabricated citations get caught before the user sees them; framework-agnostic, MIT |
+| **[verdict-contract](https://github.com/Palo-Alto-AI-Research-Lab/verdict-contract)** | Your LLM reviewer said APPROVE - did it? Prompt rule, parser and exit-code gate in one stdlib file | A review whose verdict never reaches the exit status is a log line, not a gate. 42 counterexamples included |
 
 Also here: [`agent-leash`](https://github.com/Palo-Alto-AI-Research-Lab/agent-leash) (LEASH-8 control model) · [`charm-os`](https://github.com/Palo-Alto-AI-Research-Lab/charm-os) (MCP read-broker) · [`second-brain-starter-kit`](https://github.com/Palo-Alto-AI-Research-Lab/second-brain-starter-kit) (101 skills + a working CRM engine).
 

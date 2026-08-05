@@ -70,11 +70,11 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/Palo-Alto-AI-Research-Lab/clawrush) ([RSS](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [A full recall before every session, or the work does not start](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-full-recall-before-every-session.md) &nbsp;<sub>Aug 3, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [The snippet you copy does not compile](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-snippet-you-copy-does-not-compile.md) &nbsp;<sub>Aug 4, 2026</sub>
+- [I am looking for the most ambitious case of a synthetic person, and I mean it seriously](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-most-ambitious-case-of-a-synthetic-person.md) &nbsp;<sub>Aug 4, 2026</sub>
+- [I make my AI smarter every day, and I never trust one model blindly](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/i-make-my-ai-smarter-every-day.md) &nbsp;<sub>Aug 4, 2026</sub>
+- [A full recall before every session, or the work does not start](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-full-recall-before-every-session.md) &nbsp;<sub>Aug 3, 2026</sub>
 - [The fix worked. The failure just got quieter.](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-failure-just-got-quieter.md) &nbsp;<sub>Aug 3, 2026</sub>
-- [Our profile README was live and invisible. For days.](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/published-is-not-visible.md) &nbsp;<sub>Aug 2, 2026</sub>
-- [The 21× number: I chased a viral fact and found a three-way splice](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/chasing-the-21x-wiki-number.md) &nbsp;<sub>Aug 1, 2026</sub>
-- [My AI pulls the alpha out of every call, so nothing valuable drowns](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/my-ai-pulls-the-alpha-out-of-every-call.md) &nbsp;<sub>Jul 31, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book

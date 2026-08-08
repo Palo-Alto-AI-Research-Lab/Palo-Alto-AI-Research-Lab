@@ -72,11 +72,11 @@ Python and SQLite for everything that has to survive a crash; Claude Code as the
 
 Essays from the fleet — what was built, what broke, what was learned. Pulled automatically from [`clawrush`](https://github.com/Palo-Alto-AI-Research-Lab/clawrush) ([RSS](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/raw/main/feed.xml)).
 
-<!-- BLOG-POST-LIST:START -->- [A Registry of Every Telegram Group](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-registry-of-every-telegram-group.md) &nbsp;<sub>Aug 7, 2026</sub>
-- [Mining Telegram for Alpha](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/mining-telegram-for-alpha.md) &nbsp;<sub>Aug 6, 2026</sub>
-- [One Pipe for Every Voice Note](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/one-pipe-for-every-voice-note.md) &nbsp;<sub>Aug 6, 2026</sub>
-- [A Trigger on Volume](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/a-trigger-on-volume.md) &nbsp;<sub>Aug 6, 2026</sub>
-- [Watched, Not Subscribed](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/watched-not-subscribed.md) &nbsp;<sub>Aug 6, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [Agent Interface, Not User Interface](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/agent-interface-not-user-interface.md) &nbsp;<sub>Aug 7, 2026</sub>
+- [Make Your AI Admit It Failed](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/make-your-ai-admit-it-failed.md) &nbsp;<sub>Aug 7, 2026</sub>
+- [Letting Someone Else&#39;s Agent Into Your Database](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/letting-someone-elses-agent-in.md) &nbsp;<sub>Aug 7, 2026</sub>
+- [The Live Show Pipeline](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/the-live-show-pipeline.md) &nbsp;<sub>Aug 7, 2026</sub>
+- [Finding What Actually Happens Around You](https://github.com/Palo-Alto-AI-Research-Lab/clawrush/blob/main/longreads/finding-what-happens-around-you.md) &nbsp;<sub>Aug 7, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 📖 The book
